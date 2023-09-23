@@ -1065,7 +1065,7 @@ h1, .h1 {
   font-size: 80px; }
 
 h2, .h2 {
-  font-size: 48px; }
+  font-size: 37px; }
 
 h3, .h3 {
   font-size: 30px; }
@@ -1076,10 +1076,14 @@ h4, .h4 {
 
 h5, .h5 {
   line-height: 1.45;
-  font-size: 20px; }
+  font-size: 18px; }
 
 h6, .h6 {
   font-size: 16px; }
+
+  .service_heading{
+    font-size: 32px;
+  }
 
 /*******************************************************/
 /************** ## Padding Margin Spacing *************/
@@ -3715,8 +3719,8 @@ h6, .h6 {
   max-width: 100%; }
 
 .hero-content h1 {
-  line-height: 1;
-  font-size: 180px;
+  line-height: 1.4;
+  font-size: 47px;
   font-weight: 700;
   position: relative;
   margin-bottom: -85px;
@@ -3805,9 +3809,9 @@ h6, .h6 {
 
 /* Hero Area Two */
 .hero-title {
-  line-height: 1;
+  line-height: 1.3;
   font-weight: 700;
-  font-size: 150px;
+  font-size: 80px;
   font-family: var(--ygency-primary-font); }
   @media only screen and (max-width: 1399px) {
     .hero-title {
@@ -4371,7 +4375,8 @@ h6, .h6 {
 /*******************************************************/
 @media only screen and (min-width: 576px) {
   .about-content .content {
-    margin-left: 60px; } }
+    /* margin-left: 60px; */
+   } }
 
 .about-image img {
   display: inline-block;
