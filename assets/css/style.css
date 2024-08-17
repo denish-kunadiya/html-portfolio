@@ -4980,7 +4980,8 @@ h6, .h6 {
   .blog-item .image {
     margin-bottom: 38px; }
     .blog-item .image img {
-      width: 100%; }
+      height: 300px;
+      width: 100%;   border-radius: 12px;}
   .blog-item hr {
     margin-top: 20px;
     margin-bottom: 25px; }
